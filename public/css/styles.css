@@ -1,11 +1,11 @@
 /* Estilos para la sección hero */
 .hero {
   position: relative;
-  background-image: url('/src/hero-background.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-image: url('/src/hero-background.jpg'); 
   background-size: cover;
   background-position: center;
   color: white;
-  height: 400px; /* Ajusta la altura según tus necesidades */
+  height: 400px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,7 +13,7 @@
 
 .hero-text {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad del texto */
+  background-color: rgba(0, 0, 0, 0.5); 
   padding: 20px;
   border-radius: 10px;
 }
@@ -51,7 +51,6 @@
   margin-top: 5px;
 }
 
-/* Asegurarse de que todas las imágenes de los libros tengan el mismo tamaño */
 .carousel-item img {
   height: 300px;
   width: 200px;
@@ -76,7 +75,7 @@
   color: #000;
 }
 
-/* Estilos para mover las flechas del carrusel hacia afuera y cambiar su color */
+/* Estilos para mover las flechas del carrusel */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: rgba(0, 0, 0, 0.5);

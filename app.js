@@ -5,7 +5,7 @@ const path = require('path');
 
 // Middleware
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: true })); // Agregar esta línea
+app.use(bodyParser.urlencoded({ extended: true })); 
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/css', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css')));
 app.use('/js', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js')));
@@ -72,7 +72,7 @@ app.post('/contact', (req, res) => {
   res.send('¡Gracias por ponerte en contacto con nosotros!');
 });
 
-// Solo inicia el servidor si no estamos en un entorno de pruebas
+
 if (process.env.NODE_ENV !== 'test') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
