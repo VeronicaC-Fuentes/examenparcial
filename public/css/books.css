@@ -1,0 +1,80 @@
+/* Navbar customization */
+.custom-navbar {
+    background-color: #d9bda0;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #000;
+  }
+  
+  /* Estilos para la sección de libros */
+  .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para la barra lateral de bestsellers */
+  .list-group-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .list-group-item strong {
+    margin-top: auto;
+  }
+  
+  /* Ajustes generales */
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-primary {
+    color: #8b4513 !important;
+    background-color: #c8bca7 !important;
+    border-color: #c8bca7 !important;
+  }
+  
+  .btn-primary:hover {
+    color: #fff !important;
+    background-color: #8b4513 !important;
+    border-color: #8b4513 !important;
+  }
+  
+  .btn-primary:active,
+  .btn-primary:focus {
+    color: #fff !important;
+    background-color: #5d3a22 !important;
+    border-color: #5d3a22 !important;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) !important;
+  }
+  

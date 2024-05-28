@@ -1,0 +1,147 @@
+/* Estilos para la sección hero */
+.hero {
+  position: relative;
+  background-image: url('/src/hero-background.jpg'); /* Asegúrate de que la ruta sea correcta */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 400px; /* Ajusta la altura según tus necesidades */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejorar la legibilidad del texto */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-quote {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.hero-author {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+
+/* Estilos para la sección Bestsellers */
+.carousel-item {
+  text-align: center;
+}
+
+.book-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.book-genre {
+  font-size: 0.9em;
+  color: gray;
+}
+
+.book-price {
+  font-size: 1em;
+  color: #333;
+  margin-top: 5px;
+}
+
+/* Asegurarse de que todas las imágenes de los libros tengan el mismo tamaño */
+.carousel-item img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+/* Navbar customization */
+.custom-navbar {
+  background-color: #d9bda0;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #000;
+}
+
+/* Estilos para mover las flechas del carrusel hacia afuera y cambiar su color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+}
+
+.carousel-inner .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.carousel-inner .col-2 {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+
+
+/* Estilos para la sección Author of the Month */
+.author-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.author-section .author-info {
+  text-align: center;
+  max-width: 30%;
+}
+
+.author-section .author-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.author-section .author-details {
+  max-width: 70%;
+}
+
+.author-section .author-details h3 {
+  margin-bottom: 10px;
+}
+
+.author-section .author-details p {
+  margin-bottom: 20px;
+}
+
+.author-section .book-list {
+  display: flex;
+  gap: 20px;
+}
+
+.author-section .book-list .book-img {
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+}
+
+

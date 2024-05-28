@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <!-- Enlace a Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/css/cart.css" rel="stylesheet"> <!-- Enlace al archivo CSS del carrito -->
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="/src/logo.png" alt="Logo" style="max-height: 40px;">
+          The Bookstore
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/books">Libros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/policies">Políticas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/cart">Carrito</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container mt-4">
+    <h1>Carrito de Compras</h1>
+    <div id="cart-items">
+      <!-- Aquí se mostrarán los elementos del carrito -->
+    </div>
+    <div id="cart-total" class="mt-4">
+      <!-- Aquí se mostrará el total de la venta -->
+    </div>
+    <div class="mt-4">
+      <button id="purchase-button" class="btn btn-success">COMPRAR</button>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/cart.js"></script> <!-- Incluir el archivo cart.js -->
+</body>
+</html>
+

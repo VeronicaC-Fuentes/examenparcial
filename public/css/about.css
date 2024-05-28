@@ -1,0 +1,51 @@
+/* Navbar customization */
+.custom-navbar {
+    background-color: #d9bda0;
+  }
+  
+  .navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #000;
+  }
+  
+  /* Ajustes generales */
+  body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para la sección de misión, visión y valores */
+  h1, h2 {
+    font-family: 'Glegoo', serif;
+    color: #333;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  p, .list-group-item {
+    font-family: 'Glegoo', serif;
+    color: #555;
+  }
+  
+  .img-fluid {
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  

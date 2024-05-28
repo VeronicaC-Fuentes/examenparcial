@@ -1,0 +1,69 @@
+/* Estilos generales */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+/* Navbar customization */
+.custom-navbar {
+  background-color: #d9bda0;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #000;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 900px;
+}
+
+h1.text-center {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.policy-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.policy-list li {
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.policy-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.policy-list ul li {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
